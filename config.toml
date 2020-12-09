@@ -1,0 +1,101 @@
+baseURL = "http://softwave.cr/"
+languageCode = "en-us"
+title = "softwave.cr"
+theme = "hugo-coder"
+
+[params]
+    author = "Jairo Guerrero"
+    description = "Jairo Guerrero's personal website"
+    keywords = "blog,developer,personal"
+    info = "Full Stack, InfoSec Enthusiast, and Former Footballer"
+    #avatarURL = "images/avatar.jpg"
+    avatarURL = "images/avatar1.png"
+    footerContent = "Personal page for demo and knowledge sharing purposes, WIP."
+
+    dateFormat = "January 2, 2006"
+
+    hideFooter = false
+    hideCredits = false
+    hideCopyright = false
+    since = 2019
+
+    # Git Commit in Footer, uncomment the line below to enable it.
+    commit = "https://github.com/luizdepra/hugo-coder/tree/"
+
+    rtl = false
+
+    # Specify light/dark colorscheme
+    # Supported values:
+    # "auto" (use preference set by browser)
+    # "dark" (dark background, light foreground)
+    # "light" (light background, dark foreground) (default)
+    colorScheme = "dark"
+
+    # Hide the toggle button, along with the associated vertical divider
+    hideColorSchemeToggle = false
+
+    # Series see also post count
+    maxSeeAlsoItems = 5
+
+    # Enable Twemoji
+    enableTwemoji = true
+
+    # Custom CSS
+    customCSS = []
+
+    # Custom SCSS
+    customSCSS = []
+
+    # Custom JS
+    customJS = []
+
+[[params.social]]
+    name = "Github"
+    icon = "fa fa-github"
+    weight = 1
+    url = "https://github.com/softwavecr/"
+[[params.social]]
+    name = "Gitlab"
+    icon = "fa fa-gitlab"
+    weight = 2
+    url = "https://gitlab.com/johndoe/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fa fa-twitter"
+    weight = 3
+    url = "https://twitter.com/johndoe/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fa fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/jairo-guerrero-lozano-8a0a12115/"
+[[params.social]]
+    name = "Medium"
+    icon = "fa fa-medium"
+    weight = 5
+    url = "https://medium.com/@johndoe"
+[[params.social]]
+    name = "RSS"
+    icon = "fa fa-rss"
+    weight = 6
+    url = "https://myhugosite.com/index.xml"
+    rel = "alternate"
+    type = "application/rss+xml"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
+[[menu.main]]
+  name = "Projects"
+  weight = 3
+   url = "projects/"
+[[menu.main]]
+  name = "Contact me"
+  weight = 4
+  url = "contact/"

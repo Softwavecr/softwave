@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://softwave.cr/posts/my-first-post/</loc>
+    <lastmod>2020-12-08T20:37:55-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://softwave.cr/posts/</loc>
+    <lastmod>2020-12-08T20:37:55-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://softwave.cr/</loc>
+    <lastmod>2020-12-08T20:37:55-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://softwave.cr/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://softwave.cr/tags/</loc>
+  </url>
+  
+</urlset>
