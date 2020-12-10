@@ -3,7 +3,7 @@ title = "Projects"
 slug = "projects"
 +++
 
-I am a versitile engineer, passionate about technology and its evolution.
+I am a versatile engineer, passionate about technology and its evolution.
 
 
 Some of my old and ongoing projects are:
