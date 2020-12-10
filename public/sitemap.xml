@@ -3,43 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://softwave.cr/posts/my-second-post/</loc>
+    <loc>https://softwave.cr/posts/</loc>
+    <lastmod>2020-12-10T01:17:20-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://softwave.cr/</loc>
+    <lastmod>2020-12-10T01:17:20-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://softwave.cr/posts/oop-4-pillars/</loc>
+    <lastmod>2020-12-10T01:17:20-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://softwave.cr/posts/my-second-post/</loc>
     <lastmod>2020-12-09T22:58:19-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://softwave.cr/posts/</loc>
-    <lastmod>2020-12-09T22:58:19-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://softwave.cr/</loc>
-    <lastmod>2020-12-09T22:58:19-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://softwave.cr/posts/my-first-post/</loc>
+    <loc>https://softwave.cr/posts/my-first-post/</loc>
     <lastmod>2020-12-08T20:37:55-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://softwave.cr/about/</loc>
+    <loc>https://softwave.cr/about/</loc>
   </url>
   
   <url>
-    <loc>http://softwave.cr/categories/</loc>
+    <loc>https://softwave.cr/categories/</loc>
   </url>
   
   <url>
-    <loc>http://softwave.cr/contact/</loc>
+    <loc>https://softwave.cr/contact/</loc>
   </url>
   
   <url>
-    <loc>http://softwave.cr/projects/</loc>
+    <loc>https://softwave.cr/projects/</loc>
   </url>
   
   <url>
-    <loc>http://softwave.cr/tags/</loc>
+    <loc>https://softwave.cr/tags/</loc>
   </url>
   
 </urlset>

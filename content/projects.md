@@ -15,17 +15,19 @@ Some of my old and ongoing projects are:
 * [uber-like api experiment](https://github.com/Softwavecr/libera)
 * [jWebApplicationNg](https://github.com/Softwavecr/jWebApplicationNg)
 * [Net Core + Angular Demo](https://www.softwave.cr/)
+* [AppSec Workshop]
+* [AppSec Best Practices for .Net Dev]
 
 Learn more and contribute on [GitHub](https://github.com/Softwavecr).
 
 ## Setup
 
-Some fun facts about [Hugo](http://gohugo.io/):
+Some fun facts about [Jairo](http://gohugo.io/):
 
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
+* Built in [CR](https://www.anywhere.com/costa-rica)
+* Inspired by [OWASP](https://owasp.org/)
+* Primarily developed by [TEC](https://tec.ac.cr/) in dorms while pursuing a dream.
+* Coded in [C#] using [Visual Studio]
 
 Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
 
