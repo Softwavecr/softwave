@@ -10,7 +10,7 @@ theme = "hugo-coder"
     info = "Full Stack, InfoSec Enthusiast, and Former Footballer"
     #avatarURL = "images/avatar.jpg"
     avatarURL = "images/avatar1.png"
-    footerContent = "Personal page for demo and knowledge sharing purposes, WIP."
+    footerContent = "Personal page for demo and knowledge exchange, WIP."
 
     dateFormat = "January 2, 2006"
 
@@ -29,10 +29,10 @@ theme = "hugo-coder"
     # "auto" (use preference set by browser)
     # "dark" (dark background, light foreground)
     # "light" (light background, dark foreground) (default)
-    colorScheme = "dark"
+    colorScheme = "auto"
 
     # Hide the toggle button, along with the associated vertical divider
-    hideColorSchemeToggle = false
+    hideColorSchemeToggle = true
 
     # Series see also post count
     maxSeeAlsoItems = 5

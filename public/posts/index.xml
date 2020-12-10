@@ -6,18 +6,27 @@
     <description>Recent content in Posts on softwave.cr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Dec 2020 20:37:55 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 09 Dec 2020 22:58:19 -0500</lastBuildDate>
     
 	<atom:link href="http://softwave.cr/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
+      <title>My second post t!</title>
+      <link>http://softwave.cr/posts/my-second-post/</link>
+      <pubDate>Wed, 09 Dec 2020 22:58:19 -0500</pubDate>
+      
+      <guid>http://softwave.cr/posts/my-second-post/</guid>
+      <description>Just figured out how to add a title and content on each blog post!</description>
+    </item>
+    
+    <item>
+      <title>My first post!</title>
       <link>http://softwave.cr/posts/my-first-post/</link>
       <pubDate>Tue, 08 Dec 2020 20:37:55 -0500</pubDate>
       
       <guid>http://softwave.cr/posts/my-first-post/</guid>
-      <description></description>
+      <description>I will be sharing some posts on my subjects of interest.</description>
     </item>
     
   </channel>
