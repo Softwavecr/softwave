@@ -12,6 +12,8 @@ It makes use of a variety of open source projects including:
 * [Polynizer](https://github.com/Softwavecr/polynizer)
 * [kylajairo2019](https://github.com/Softwavecr/kylajairo2019)
 * [Drive](https://github.com/Softwavecr/libera)
+* [jWebApplicationNg] (https://github.com/Softwavecr/jWebApplicationNg)
+* [Net Core + Angular Demo] (https://www.softwave.cr/)
 
 Learn more and contribute on [GitHub](https://github.com/Softwavecr).
 
