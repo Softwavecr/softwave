@@ -78,7 +78,7 @@ theme = "hugo-coder"
     name = "RSS"
     icon = "fa fa-rss"
     weight = 6
-    url = "https://myhugosite.com/index.xml"
+    url = "https://softwavecr.com/index.xml"
     rel = "alternate"
     type = "application/rss+xml"
 
