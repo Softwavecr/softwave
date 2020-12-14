@@ -20,6 +20,10 @@ Some of my old and ongoing projects are:
 
 Learn more and contribute on [GitHub](https://github.com/Softwavecr).
 
+
+## DRAFT_PROJECT_IDEAS
+* [Intentionally Insecure Web App](https://www.benjaminjohnston.com.au/intentionallyinsecurejs)
+
 ## Setup
 
 Some fun facts about [Jairo](http://gohugo.io/):

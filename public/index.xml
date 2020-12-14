@@ -6,10 +6,35 @@
     <description>Recent content on softwave.cr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Dec 2020 01:17:20 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 13 Dec 2020 21:23:31 -0500</lastBuildDate>
     
 	<atom:link href="https://softwave.cr/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Modern Js</title>
+      <link>https://softwave.cr/posts/modern-js/</link>
+      <pubDate>Sun, 13 Dec 2020 21:23:31 -0500</pubDate>
+      
+      <guid>https://softwave.cr/posts/modern-js/</guid>
+      <description>##Arrow functions Arrow functions have this syntax:
+const myFunction = () =&amp;gt; { //&amp;hellip; }
+#The spread operator If you see
+const c = [&amp;hellip;a] This statement copies an array.
+You can add items to an array as well, using
+const c = [&amp;hellip;a, 2, &amp;lsquo;test&amp;rsquo;] The &amp;hellip; is called spread operator.
+##Destructuring assignments You can extract just some properties from an object using this syntax:
+const person = { firstName: &amp;lsquo;Tom&amp;rsquo;, lastName: &amp;lsquo;Cruise&amp;rsquo;, actor: true, age: 54 //made up }</description>
+    </item>
+    
+    <item>
+      <title>WCF vs WebAPI</title>
+      <link>https://softwave.cr/posts/wcf-vs-webapi/</link>
+      <pubDate>Thu, 10 Dec 2020 15:55:31 -0500</pubDate>
+      
+      <guid>https://softwave.cr/posts/wcf-vs-webapi/</guid>
+      <description>Name Age     Bob 27   Alice 23       Scenario WCF 4.5 WebAPI     Bob 27    Alice 23     |Scenario|WCF4.5|WebAPI| |Requires support for scenarios like Message queues, end to end message security, duplex communication, distributed transactions, etc.|YES|NO| |When you already have existing working WCF services and Wants to add HTTP support additionally.</description>
+    </item>
     
     <item>
       <title>The Four Pillars of Object Oriented Programming</title>
@@ -69,10 +94,10 @@ Setup Some fun facts about Jairo:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://softwave.cr/projects/</guid>
-      <description>I am a versitile engineer, passionate about technology and its evolution.
+      <description>I am a versatile engineer, passionate about technology and its evolution.
 Some of my old and ongoing projects are:
  this Polynizer kylajairo2019 git kylajairo2019 uber-like api experiment jWebApplicationNg Net Core + Angular Demo [AppSec Workshop] [AppSec Best Practices for .Net Dev]  Learn more and contribute on GitHub.
-Setup Some fun facts about Jairo:
+DRAFT_PROJECT_IDEAS  Intentionally Insecure Web App  Setup Some fun facts about Jairo:
  Built in CR Inspired by OWASP Primarily developed by TEC in dorms while pursuing a dream.</description>
     </item>
     
