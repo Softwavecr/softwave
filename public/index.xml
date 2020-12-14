@@ -17,14 +17,16 @@
       <pubDate>Sun, 13 Dec 2020 21:23:31 -0500</pubDate>
       
       <guid>https://softwave.cr/posts/modern-js/</guid>
-      <description>##Arrow functions Arrow functions have this syntax:
+      <description>Arrow functions Arrow functions have this syntax:
 const myFunction = () =&amp;gt; { //&amp;hellip; }
-#The spread operator If you see
-const c = [&amp;hellip;a] This statement copies an array.
+The spread operator If you see
+const c = [&amp;hellip;a]
+This statement copies an array.
 You can add items to an array as well, using
-const c = [&amp;hellip;a, 2, &amp;lsquo;test&amp;rsquo;] The &amp;hellip; is called spread operator.
-##Destructuring assignments You can extract just some properties from an object using this syntax:
-const person = { firstName: &amp;lsquo;Tom&amp;rsquo;, lastName: &amp;lsquo;Cruise&amp;rsquo;, actor: true, age: 54 //made up }</description>
+const c = [&amp;hellip;a, 2, &amp;lsquo;test&amp;rsquo;]
+The &amp;hellip; is called spread operator.
+Destructuring assignments You can extract just some properties from an object using this syntax:
+const person = { firstName: &amp;lsquo;Tom&amp;rsquo;, lastName: &amp;lsquo;Cruise&amp;rsquo;, actor: true, age: 54 }</description>
     </item>
     
     <item>
@@ -33,7 +35,7 @@ const person = { firstName: &amp;lsquo;Tom&amp;rsquo;, lastName: &amp;lsquo;Crui
       <pubDate>Thu, 10 Dec 2020 15:55:31 -0500</pubDate>
       
       <guid>https://softwave.cr/posts/wcf-vs-webapi/</guid>
-      <description>Name Age     Bob 27   Alice 23       Scenario WCF 4.5 WebAPI     Bob 27    Alice 23     |Scenario|WCF4.5|WebAPI| |Requires support for scenarios like Message queues, end to end message security, duplex communication, distributed transactions, etc.|YES|NO| |When you already have existing working WCF services and Wants to add HTTP support additionally.</description>
+      <description>Scenario WCF 4.5 Web API     Requires support for scenarios like Message queues, end to end message security, duplex communication, distributed transactions, etc. YES NO   Requires support for scenarios like Message queues, end to end message security, duplex communication, distributed transactions, etc. YES NO   When you already have existing working WCF services and Wants to add HTTP support additionally. YES NO   One code base to provide support both SOAP and RESTful endpoints.</description>
     </item>
     
     <item>

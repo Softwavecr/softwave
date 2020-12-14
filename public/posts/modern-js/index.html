@@ -7,36 +7,42 @@
     <meta http-equiv="Content-Language" content="en">
 
     <meta name="author" content="Jairo Guerrero">
-    <meta name="description" content="##Arrow functions Arrow functions have this syntax:
+    <meta name="description" content="Arrow functions Arrow functions have this syntax:
 const myFunction = () =&gt; { //&hellip; }
-#The spread operator If you see
-const c = [&hellip;a] This statement copies an array.
+The spread operator If you see
+const c = [&hellip;a]
+This statement copies an array.
 You can add items to an array as well, using
-const c = [&hellip;a, 2, &lsquo;test&rsquo;] The &hellip; is called spread operator.
-##Destructuring assignments You can extract just some properties from an object using this syntax:
-const person = { firstName: &lsquo;Tom&rsquo;, lastName: &lsquo;Cruise&rsquo;, actor: true, age: 54 //made up }">
+const c = [&hellip;a, 2, &lsquo;test&rsquo;]
+The &hellip; is called spread operator.
+Destructuring assignments You can extract just some properties from an object using this syntax:
+const person = { firstName: &lsquo;Tom&rsquo;, lastName: &lsquo;Cruise&rsquo;, actor: true, age: 54 }">
     <meta name="keywords" content="blog,developer,personal">
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Modern Js"/>
-<meta name="twitter:description" content="##Arrow functions Arrow functions have this syntax:
+<meta name="twitter:description" content="Arrow functions Arrow functions have this syntax:
 const myFunction = () =&gt; { //&hellip; }
-#The spread operator If you see
-const c = [&hellip;a] This statement copies an array.
+The spread operator If you see
+const c = [&hellip;a]
+This statement copies an array.
 You can add items to an array as well, using
-const c = [&hellip;a, 2, &lsquo;test&rsquo;] The &hellip; is called spread operator.
-##Destructuring assignments You can extract just some properties from an object using this syntax:
-const person = { firstName: &lsquo;Tom&rsquo;, lastName: &lsquo;Cruise&rsquo;, actor: true, age: 54 //made up }"/>
+const c = [&hellip;a, 2, &lsquo;test&rsquo;]
+The &hellip; is called spread operator.
+Destructuring assignments You can extract just some properties from an object using this syntax:
+const person = { firstName: &lsquo;Tom&rsquo;, lastName: &lsquo;Cruise&rsquo;, actor: true, age: 54 }"/>
 
     <meta property="og:title" content="Modern Js" />
-<meta property="og:description" content="##Arrow functions Arrow functions have this syntax:
+<meta property="og:description" content="Arrow functions Arrow functions have this syntax:
 const myFunction = () =&gt; { //&hellip; }
-#The spread operator If you see
-const c = [&hellip;a] This statement copies an array.
+The spread operator If you see
+const c = [&hellip;a]
+This statement copies an array.
 You can add items to an array as well, using
-const c = [&hellip;a, 2, &lsquo;test&rsquo;] The &hellip; is called spread operator.
-##Destructuring assignments You can extract just some properties from an object using this syntax:
-const person = { firstName: &lsquo;Tom&rsquo;, lastName: &lsquo;Cruise&rsquo;, actor: true, age: 54 //made up }" />
+const c = [&hellip;a, 2, &lsquo;test&rsquo;]
+The &hellip; is called spread operator.
+Destructuring assignments You can extract just some properties from an object using this syntax:
+const person = { firstName: &lsquo;Tom&rsquo;, lastName: &lsquo;Cruise&rsquo;, actor: true, age: 54 }" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://softwave.cr/posts/modern-js/" />
 <meta property="article:published_time" content="2020-12-13T21:23:31-05:00" />
@@ -169,38 +175,38 @@ const person = { firstName: &lsquo;Tom&rsquo;, lastName: &lsquo;Cruise&rsquo;, a
 
       <div>
         
-        <p>##Arrow functions
-Arrow functions have this syntax:</p>
+        <h2 id="arrow-functions">Arrow functions</h2>
+<p>Arrow functions have this syntax:</p>
 <p>const myFunction = () =&gt; {
 //&hellip;
 }</p>
-<p>#The spread operator
-If you see</p>
-<p>const c = [&hellip;a]
-This statement copies an array.</p>
+<h2 id="the-spread-operator">The spread operator</h2>
+<p>If you see</p>
+<p>const c = [&hellip;a]</p>
+<p>This statement copies an array.</p>
 <p>You can add items to an array as well, using</p>
-<p>const c = [&hellip;a, 2, &lsquo;test&rsquo;]
-The &hellip; is called spread operator.</p>
-<p>##Destructuring assignments
-You can extract just some properties from an object using this syntax:</p>
+<p>const c = [&hellip;a, 2, &lsquo;test&rsquo;]</p>
+<p>The &hellip; is called spread operator.</p>
+<h2 id="destructuring-assignments">Destructuring assignments</h2>
+<p>You can extract just some properties from an object using this syntax:</p>
 <p>const person = {
 firstName: &lsquo;Tom&rsquo;,
 lastName: &lsquo;Cruise&rsquo;,
 actor: true,
-age: 54 //made up
+age: 54
 }</p>
 <p>const { firstName: name, age } = person
 You will now have two const values name and age.</p>
 <p>The syntax also works on arrays:</p>
 <p>const a = [1,2,3,4,5]
 [first, second, , , fifth] = a</p>
-<p>##Template literals
-If you see strings enclosed in backticks, it’s a template literal:</p>
+<h2 id="template-literals">Template literals</h2>
+<p>If you see strings enclosed in backticks, it’s a template literal:</p>
 <p>const str = <code>test</code>
 Inside this, you can put variables and execute javascript, using ${&hellip;} snippets:</p>
-<p>const string = <code>something ${1 + 2 + 3}</code>
-const string2 = <code>something ${doSomething() ? 'x' : 'y'}</code>
-And also, you can span a string over multiple lines:</p>
+<p>const string = <code>something ${1 + 2 + 3}</code></p>
+<p>const string2 = <code>something ${doSomething() ? 'x' : 'y'}</code></p>
+<p>And also, you can span a string over multiple lines:</p>
 <p>const string3 = `Hey
 this</p>
 <p>string

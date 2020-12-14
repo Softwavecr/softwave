@@ -12,8 +12,7 @@ series = []
 +++
 
 
-
-   Scenario | WCF 4.5 | WebAPI
+   Scenario | WCF 4.5 | Web API
 ------------|---------|--------
        Requires support for scenarios like Message queues, end to end message security, duplex communication, distributed transactions, etc.  | YES     | NO
        Requires support for scenarios like Message queues, end to end message security, duplex communication, distributed transactions, etc.|YES|NO|
