@@ -15,15 +15,7 @@ It made use of a variety of public education institutions:
 
 Learn more and contribute on [GitHub](https://github.com/spf13).
 
-## Setup
+## Next
 
-Some fun facts about [Jairo](http://gohugo.io/):
-
-* Built in [CR](https://www.anywhere.com/costa-rica)
-* Inspired by [OWASP](https://owasp.org/)
-* Primarily developed by [TEC](https://tec.ac.cr/) in dorms while pursuing a dream.
-* Coded in [C#] using [Visual Studio]
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
 
 Thanks for reading!

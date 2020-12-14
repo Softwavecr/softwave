@@ -63,7 +63,7 @@ theme = "hugo-coder"
     name = "RSS"
     icon = "fa fa-rss"
     weight = 4
-    url = "https://softwavecr.com/index.xml"
+    url = "https://softwave.cr/index.xml"
     rel = "alternate"
     type = "application/rss+xml"
 

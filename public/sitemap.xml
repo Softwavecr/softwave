@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://softwave.cr/posts/modern-js/</loc>
-    <lastmod>2020-12-13T21:23:31-05:00</lastmod>
+    <loc>https://softwave.cr/posts/</loc>
+    <lastmod>2020-12-14T10:21:27-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://softwave.cr/posts/</loc>
-    <lastmod>2020-12-13T21:23:31-05:00</lastmod>
+    <loc>https://softwave.cr/posts/promise-vs-observable/</loc>
+    <lastmod>2020-12-14T10:21:27-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://softwave.cr/</loc>
+    <lastmod>2020-12-14T10:21:27-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://softwave.cr/posts/modern-js/</loc>
     <lastmod>2020-12-13T21:23:31-05:00</lastmod>
   </url>
   

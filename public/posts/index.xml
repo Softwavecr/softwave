@@ -6,10 +6,19 @@
     <description>Recent content in Posts on softwave.cr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Dec 2020 21:23:31 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 14 Dec 2020 10:21:27 -0500</lastBuildDate>
     
 	<atom:link href="https://softwave.cr/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Promise vs Observable</title>
+      <link>https://softwave.cr/posts/promise-vs-observable/</link>
+      <pubDate>Mon, 14 Dec 2020 10:21:27 -0500</pubDate>
+      
+      <guid>https://softwave.cr/posts/promise-vs-observable/</guid>
+      <description>1:1  a Promise is eager, whereas an Observable is lazy, a Promise is always asynchronous, while an Observable can be either synchronous or asynchronous, a Promise can provide a single value, whereas an Observable is a stream of values (from 0 to multiple values), you can apply RxJS operators to an Observable to get a new tailored stream (categorized as: creation[from, range], transformation[map, scan ], filtering[first, last], joining[mergeall, startwith], multicasting[publish, share], error handling[catchError, retry], utility[delay, timeout])  Cheat sheet The following code snippets illustrate how the same kind of operation is defined using observables and promises.</description>
+    </item>
     
     <item>
       <title>Modern Js</title>
@@ -51,7 +60,7 @@ Polymorphism Classes that inherit from each other being able to invoke the same 
     </item>
     
     <item>
-      <title>My second post t!</title>
+      <title>My second post!</title>
       <link>https://softwave.cr/posts/my-second-post/</link>
       <pubDate>Wed, 09 Dec 2020 22:58:19 -0500</pubDate>
       
