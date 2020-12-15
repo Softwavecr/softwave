@@ -36,6 +36,7 @@ const person = {
 }
 
 const { firstName: name, age } = person
+
 You will now have two const values name and age.
 
 The syntax also works on arrays:
