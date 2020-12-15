@@ -38,9 +38,9 @@ Context: AWS API Gateway API Gateway is a managed service that makes it easier t
       
       <guid>https://softwave.cr/posts/http-soap-rest/</guid>
       <description>Summary HTTP is a communications protocol that transports messages over a network.
-REST is a set of rules (NOT A PROTOCOL) to exchange any(XML or JSON) messages that mostly use HTTP to transport those messages.
-SOAP is a protocol to exchange XML-based messages that can use HTTP (OR ANY OTHER PROTOCOL) to transport those messages.
-Dive-in HTTP The Hypertext Transfer Protocol (HTTP) is an application layer protocol for distributed, collaborative, hypermedia information systems.</description>
+REST is a set of rules to exchange any(e.g. XML, JSON) messages that can use HTTP for transport.
+SOAP is a protocol to exchange XML-based messages that may use HTTP for transport.
+Dive-in HTTP The Hypertext Transfer Protocol (HTTP) is an application layer protocol for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser.</description>
     </item>
     
     <item>
@@ -139,7 +139,7 @@ Next Thanks for reading!</description>
       <description>I am a versatile engineer, passionate about technology and its evolution.
 Some of my old and ongoing projects are:
  this Polynizer kylajairo2019 git kylajairo2019 uber-like api experiment jWebApplicationNg Net Core + Angular Demo [AppSec Workshop] [AppSec Best Practices for .Net Dev]  Learn more and contribute on GitHub.
-DRAFT_PROJECT_IDEAS  Intentionally Insecure Web App Hugo MarkUp  Setup Some fun facts about Jairo:
+DRAFT_PROJECT_IDEAS  Intentionally Insecure Web App Hugo MarkUp Hugo MarkUp2  Setup Some fun facts about Jairo:
  Built in CR Inspired by OWASP Primarily developed by TEC in dorms while pursuing a dream.</description>
     </item>
     

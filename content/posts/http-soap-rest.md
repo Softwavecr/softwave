@@ -6,11 +6,11 @@ draft: true
 
 ## Summary
 
-HTTP is a communications protocol that transports messages over a network.
+HTTP is a communications __protocol__ that transports messages over a network.
 
-REST is a set of rules to exchange any(XML or JSON) messages that mostly use HTTP to transport those messages.
+REST is a __set of rules__ to exchange any(e.g. XML, JSON) messages that can use HTTP for transport.
 
-SOAP is a protocol to exchange XML-based messages that may use HTTP to transport those messages. 
+SOAP is a __protocol__ to exchange XML-based messages that may use HTTP for transport. 
 
 ## Dive-in
 

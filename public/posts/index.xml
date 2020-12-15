@@ -38,9 +38,9 @@ Context: AWS API Gateway API Gateway is a managed service that makes it easier t
       
       <guid>https://softwave.cr/posts/http-soap-rest/</guid>
       <description>Summary HTTP is a communications protocol that transports messages over a network.
-REST is a set of rules (NOT A PROTOCOL) to exchange any(XML or JSON) messages that mostly use HTTP to transport those messages.
-SOAP is a protocol to exchange XML-based messages that can use HTTP (OR ANY OTHER PROTOCOL) to transport those messages.
-Dive-in HTTP The Hypertext Transfer Protocol (HTTP) is an application layer protocol for distributed, collaborative, hypermedia information systems.</description>
+REST is a set of rules to exchange any(e.g. XML, JSON) messages that can use HTTP for transport.
+SOAP is a protocol to exchange XML-based messages that may use HTTP for transport.
+Dive-in HTTP The Hypertext Transfer Protocol (HTTP) is an application layer protocol for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser.</description>
     </item>
     
     <item>
