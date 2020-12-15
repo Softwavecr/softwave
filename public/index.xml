@@ -6,10 +6,20 @@
     <description>Recent content on softwave.cr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Dec 2020 13:24:06 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 15 Dec 2020 15:51:53 -0500</lastBuildDate>
     
 	<atom:link href="https://softwave.cr/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AWS API Gateway: HTTP vs REST</title>
+      <link>https://softwave.cr/posts/aws-apigateway-http-vs-rest/</link>
+      <pubDate>Tue, 15 Dec 2020 15:51:53 -0500</pubDate>
+      
+      <guid>https://softwave.cr/posts/aws-apigateway-http-vs-rest/</guid>
+      <description>Summary HTTP is 70% faster, and way cheaper, but lacks most of features from REST and WebSockets, therefore, choose HTTP if WebSockets were not required, nor REST API features.
+Context: AWS API Gateway API Gateway is a managed service that makes it easier to manage the APIs (creating, publishing, and maintaining secure APIs). API gateway has become one of the pillars of the microservices and serverless architectures. It comes in 3 flavors:</description>
+    </item>
     
     <item>
       <title>HTTP vs SOAP vs REST</title>
