@@ -8,9 +8,9 @@ draft: true
 
 HTTP is a communications protocol that transports messages over a network.
 
-REST is a set of rules (NOT A PROTOCOL) to exchange any(XML or JSON) messages that mostly use HTTP to transport those messages.
+REST is a set of rules to exchange any(XML or JSON) messages that mostly use HTTP to transport those messages.
 
-SOAP is a protocol to exchange XML-based messages that can use HTTP (OR ANY OTHER PROTOCOL) to transport those messages. 
+SOAP is a protocol to exchange XML-based messages that may use HTTP to transport those messages. 
 
 ## Dive-in
 
