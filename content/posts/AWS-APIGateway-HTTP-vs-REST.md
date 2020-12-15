@@ -45,5 +45,6 @@ Requests        | Price    |
 * [Building faster, lower cost, better APIs – HTTP APIs now generally available (09/2020)](https://aws.amazon.com/blogs/compute/building-better-apis-http-apis-now-generally-available/)
 * [Choosing between HTTP APIs and REST APIs (04/2019+?)](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html)
 * [Introducing HTTP APIs: A Better, Cheaper, Faster Way to Build APIs (04/2020)](https://pages.awscloud.com/Introducing-HTTP-APIs-A-Better-Cheaper-Faster-Way-to-Build-APIs_2020_0304-SRV_OD.html)
-
+* [FAQs](https://aws.amazon.com/api-gateway/faqs/)
+* [AWS API Gateway By Example](https://codeburst.io/aws-api-gateway-by-example-3733d7792635)
 

@@ -23,6 +23,7 @@ Learn more and contribute on [GitHub](https://github.com/Softwavecr).
 
 ## DRAFT_PROJECT_IDEAS
 * [Intentionally Insecure Web App](https://www.benjaminjohnston.com.au/intentionallyinsecurejs)
+* [Hugo MarkUp](https://themes.gohugo.io//theme/hugo-coder/post/markdown-syntax/)
 
 ## Setup
 
