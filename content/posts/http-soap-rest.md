@@ -41,6 +41,12 @@ REST is easier to use for the most part and is more flexible. Advantages vs SOAP
 * Fast (no extensive processing required)
 * Closer to other Web technologies in design philosophy
 
+Architectural Layer view:
+1. Client-server architecture – the client is responsible for the user interface, and the server is responsible for the backend and data storage. Client and server are independent of each other, and each of them can be replaced separately.
+2. Stateless – no data from the client is stored on the server-side. The session state is stored on the client-side.
+3. Cacheable – clients can cache server responses to improve performance.
+* 4 Layered system - 5 Code on demand - 6 Uniform interface
+
 
 # SOAP
 SOAP (formerly an acronym for Simple Object Access Protocol) is a messaging protocol specification for exchanging structured information in the implementation of web services in computer networks. Its purpose is to provide extensibility, neutrality, verbosity and independence. It uses XML Information Set for its message format, and relies on application layer protocols, most often Hypertext Transfer Protocol (HTTP), although some legacy systems communicate over Simple Mail Transfer Protocol (SMTP), for message negotiation and transmission.

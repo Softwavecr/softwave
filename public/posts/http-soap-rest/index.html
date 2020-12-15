@@ -146,7 +146,7 @@ Dive-in HTTP The Hypertext Transfer Protocol (HTTP) is an application layer prot
             </span>
             <span class="reading-time">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
-              3-minute read
+              4-minute read
             </span>
           </div>
           
@@ -184,6 +184,15 @@ Communication between clients and servers is done by requests and responses:</p>
 <li>Efficient (SOAP uses XML for all messages, REST mostly uses smaller message formats like JSON)</li>
 <li>Fast (no extensive processing required)</li>
 <li>Closer to other Web technologies in design philosophy</li>
+</ul>
+<p>Architectural Layer view:</p>
+<ol>
+<li>Client-server architecture – the client is responsible for the user interface, and the server is responsible for the backend and data storage. Client and server are independent of each other, and each of them can be replaced separately.</li>
+<li>Stateless – no data from the client is stored on the server-side. The session state is stored on the client-side.</li>
+<li>Cacheable – clients can cache server responses to improve performance.</li>
+</ol>
+<ul>
+<li>4 Layered system - 5 Code on demand - 6 Uniform interface</li>
 </ul>
 <h1 id="soap">SOAP</h1>
 <p>SOAP (formerly an acronym for Simple Object Access Protocol) is a messaging protocol specification for exchanging structured information in the implementation of web services in computer networks. Its purpose is to provide extensibility, neutrality, verbosity and independence. It uses XML Information Set for its message format, and relies on application layer protocols, most often Hypertext Transfer Protocol (HTTP), although some legacy systems communicate over Simple Mail Transfer Protocol (SMTP), for message negotiation and transmission.</p>
