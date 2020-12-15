@@ -8,6 +8,7 @@ draft: true
 
 HTTP is 70% faster, and way cheaper, but lacks most of features from REST and WebSockets, therefore, choose HTTP if WebSockets were not required, nor REST API features.
 
+![Decission Making](/images/aws-api-http-rest.png)
 
 # Context: AWS API Gateway
 API Gateway is a managed service that makes it easier to manage the APIs (creating, publishing, and maintaining secure APIs). API gateway has become one of the pillars of the microservices and serverless architectures. It comes in 3 flavors:
@@ -27,21 +28,22 @@ Develop a REST API where you gain complete control over the request and response
 Works with the following:
 Lambda, HTTP, AWS Services
 
-# REST Price (month)
-Requests        | Price          |
-----------------|----------------|
+## Monthly costs
+## REST 
+Requests        | Price    |
+----------------|----------|
         0 - 333 | $3.50    |
-334 - 1 million | $2.80    |
-
-# HTTP Price (month)
-Requests        | Price          |
-----------------|----------------|
+       334 - 1M | $2.80    |
+## HTTP
+Requests        | Price    |
+----------------|----------|
         0 - 300 | $1.00    |
-301 - 1 million | $0.90    |
-
+       301 - 1M | $0.90    |
 
 ## REFERENCE
 * [AWS API Gateway: HTTP vs REST (09/2020)](https://www.learnaws.org/2020/09/12/rest-api-vs-http-api/)
 * [Building faster, lower cost, better APIs – HTTP APIs now generally available (09/2020)](https://aws.amazon.com/blogs/compute/building-better-apis-http-apis-now-generally-available/)
 * [Choosing between HTTP APIs and REST APIs (04/2019+?)](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html)
+* [Introducing HTTP APIs: A Better, Cheaper, Faster Way to Build APIs (04/2020)](https://pages.awscloud.com/Introducing-HTTP-APIs-A-Better-Cheaper-Faster-Way-to-Build-APIs_2020_0304-SRV_OD.html)
+
 
