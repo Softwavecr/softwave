@@ -3,61 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://softwave.cr/posts/async-http-calls/</loc>
-    <lastmod>2020-12-15T17:55:32-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/posts/</loc>
-    <lastmod>2020-12-15T17:55:32-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/</loc>
-    <lastmod>2020-12-15T17:55:32-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/posts/aws-apigateway-http-vs-rest/</loc>
-    <lastmod>2020-12-15T15:51:53-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/posts/http-soap-rest/</loc>
-    <lastmod>2020-12-15T13:24:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/posts/promise-vs-observable/</loc>
-    <lastmod>2020-12-14T10:21:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/posts/modern-js/</loc>
-    <lastmod>2020-12-13T21:23:31-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/posts/wcf-vs-webapi/</loc>
-    <lastmod>2020-12-10T15:55:31-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/posts/oop-4-pillars/</loc>
-    <lastmod>2020-12-10T01:17:20-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/posts/my-second-post/</loc>
-    <lastmod>2020-12-09T22:58:19-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/posts/my-first-post/</loc>
-    <lastmod>2020-12-08T20:37:55-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://softwave.cr/about/</loc>
   </url>
   
@@ -71,6 +16,10 @@
   
   <url>
     <loc>https://softwave.cr/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https://softwave.cr/</loc>
   </url>
   
   <url>
