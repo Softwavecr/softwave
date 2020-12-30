@@ -9,12 +9,12 @@ I am a versatile engineer, passionate about technology and its evolution.
 Some of my old and ongoing projects are:
 
 * [this](https://github.com/Softwavecr/softwave)
-* [Polynizer](https://github.com/Softwavecr/polynizer)
+* [Polynizer - git(pending)](https://github.com/Softwavecr/polynizer)
 * [kylajairo2019 git](https://github.com/Softwavecr/kylajairo2019)
 * [kylajairo2019](http://www.kylajairo2019.com/)
-* [uber-like api experiment](https://github.com/Softwavecr/libera)
-* [jWebApplicationNg](https://github.com/Softwavecr/jWebApplicationNg)
-* [Net Core + Angular Demo](https://www.softwave.cr/)
+* [Node.js API uber-like Demo - git](https://github.com/Softwavecr/libera)
+* [Net Core + Angular Demo - git](https://github.com/Softwavecr/jWebApplicationNg)
+* [Net Core + Angular Demo](https://www.softwavecr.com)
 * [AppSec Workshop]
 * [AppSec Best Practices for .Net Dev]
 
