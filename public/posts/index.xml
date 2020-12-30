@@ -6,10 +6,35 @@
     <description>Recent content in Posts on softwave.cr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Dec 2020 17:55:32 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 22 Dec 2020 15:48:59 -0500</lastBuildDate>
     
 	<atom:link href="https://softwave.cr/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Numpy and Arrays in Js</title>
+      <link>https://softwave.cr/posts/numpy-and-arrays-in-js/</link>
+      <pubDate>Tue, 22 Dec 2020 15:48:59 -0500</pubDate>
+      
+      <guid>https://softwave.cr/posts/numpy-and-arrays-in-js/</guid>
+      <description>ASYNCHRONOUS FUNCTIONS In Python 3.4+, asynchronous functions are supported by the asyncio library.
+   Topic JS Python     Define async named function async function fnName(params) {&amp;hellip;} async def fnName(p)   Define async anonymous function const fnName = async (params) =&amp;gt; {&amp;hellip;} not supported   Async call with await const result = await name(args); result = await name(ar)   Async call with then &amp;amp; catch name(args).</description>
+    </item>
+    
+    <item>
+      <title>Six Donts During Job Interviews</title>
+      <link>https://softwave.cr/posts/six-donts-during-job-interviews/</link>
+      <pubDate>Thu, 17 Dec 2020 13:14:25 -0500</pubDate>
+      
+      <guid>https://softwave.cr/posts/six-donts-during-job-interviews/</guid>
+      <description>Do not expect to get an offer if you say   I am a motivated self-starter.
+  In five years, I hope to be in your position.
+  I did not like my previous boss.
+  My biggest weakness is that I am a perfectionist.
+  Can you tell me more about the company?
+  What do your perks and benefits look like?
+  Any surprise?</description>
+    </item>
     
     <item>
       <title>Async HTTP Calls</title>
@@ -76,7 +101,7 @@ const person = { firstName: &amp;lsquo;Tom&amp;rsquo;, lastName: &amp;lsquo;Crui
       <pubDate>Thu, 10 Dec 2020 15:55:31 -0500</pubDate>
       
       <guid>https://softwave.cr/posts/wcf-vs-webapi/</guid>
-      <description>Scenario WCF 4.5 Web API     Requires support for scenarios like Message queues, end to end message security, duplex communication, distributed transactions, etc. YES NO   Requires support for scenarios like Message queues, end to end message security, duplex communication, distributed transactions, etc. YES NO   When you already have existing working WCF services and Wants to add HTTP support additionally. YES NO   One code base to provide support both SOAP and RESTful endpoints.</description>
+      <description>Scenario WCF 4.5 Web API     Requires support for scenarios like Message queues, end to end message security, duplex communication, distributed transactions, etc. YES NO   When you already have existing working WCF services and Wants to add HTTP support additionally. YES NO   One code base to provide support both SOAP and RESTful endpoints. YES NO   Wants to create a resource-oriented service over HTTP.</description>
     </item>
     
     <item>

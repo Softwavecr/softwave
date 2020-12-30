@@ -6,9 +6,133 @@
     <description>Recent content on softwave.cr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 22 Dec 2020 15:48:59 -0500</lastBuildDate>
     
 	<atom:link href="https://softwave.cr/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Numpy and Arrays in Js</title>
+      <link>https://softwave.cr/posts/numpy-and-arrays-in-js/</link>
+      <pubDate>Tue, 22 Dec 2020 15:48:59 -0500</pubDate>
+      
+      <guid>https://softwave.cr/posts/numpy-and-arrays-in-js/</guid>
+      <description>ASYNCHRONOUS FUNCTIONS In Python 3.4+, asynchronous functions are supported by the asyncio library.
+   Topic JS Python     Define async named function async function fnName(params) {&amp;hellip;} async def fnName(p)   Define async anonymous function const fnName = async (params) =&amp;gt; {&amp;hellip;} not supported   Async call with await const result = await name(args); result = await name(ar)   Async call with then &amp;amp; catch name(args).</description>
+    </item>
+    
+    <item>
+      <title>Six Donts During Job Interviews</title>
+      <link>https://softwave.cr/posts/six-donts-during-job-interviews/</link>
+      <pubDate>Thu, 17 Dec 2020 13:14:25 -0500</pubDate>
+      
+      <guid>https://softwave.cr/posts/six-donts-during-job-interviews/</guid>
+      <description>Do not expect to get an offer if you say   I am a motivated self-starter.
+  In five years, I hope to be in your position.
+  I did not like my previous boss.
+  My biggest weakness is that I am a perfectionist.
+  Can you tell me more about the company?
+  What do your perks and benefits look like?
+  Any surprise?</description>
+    </item>
+    
+    <item>
+      <title>Async HTTP Calls</title>
+      <link>https://softwave.cr/posts/async-http-calls/</link>
+      <pubDate>Tue, 15 Dec 2020 17:55:32 -0500</pubDate>
+      
+      <guid>https://softwave.cr/posts/async-http-calls/</guid>
+      <description>HTTP – the Standard Library No Promises, async/await nor 3rd party dependencies.
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17  const https = require(&amp;#39;https&amp;#39;); https.get(&amp;#39;https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&amp;#39;, (resp) =&amp;gt; { let data = &amp;#39;&amp;#39;; // A chunk of data has been received.  resp.on(&amp;#39;data&amp;#39;, (chunk) =&amp;gt; { data += chunk; }); // The whole response has been received. Print out the result.</description>
+    </item>
+    
+    <item>
+      <title>AWS API Gateway: HTTP vs REST</title>
+      <link>https://softwave.cr/posts/aws-apigateway-http-vs-rest/</link>
+      <pubDate>Tue, 15 Dec 2020 15:51:53 -0500</pubDate>
+      
+      <guid>https://softwave.cr/posts/aws-apigateway-http-vs-rest/</guid>
+      <description>Summary HTTP is 70% faster, and way cheaper, but lacks most of features from REST and WebSockets, therefore, choose HTTP if WebSockets were not required, nor REST API features.
+Context: AWS API Gateway API Gateway is a managed service that makes it easier to manage the APIs (creating, publishing, and maintaining secure APIs). API gateway has become one of the pillars of the microservices and serverless architectures. It comes in 3 flavors:</description>
+    </item>
+    
+    <item>
+      <title>HTTP vs SOAP vs REST</title>
+      <link>https://softwave.cr/posts/http-soap-rest/</link>
+      <pubDate>Tue, 15 Dec 2020 13:24:06 -0500</pubDate>
+      
+      <guid>https://softwave.cr/posts/http-soap-rest/</guid>
+      <description>Summary HTTP is a communications protocol that transports messages over a network.
+REST is a set of rules to exchange any(e.g. XML, JSON) messages that can use HTTP for transport.
+SOAP is a protocol to exchange XML-based messages that may use HTTP for transport.
+Dive-in HTTP The Hypertext Transfer Protocol (HTTP) is an application layer protocol for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser.</description>
+    </item>
+    
+    <item>
+      <title>Promise vs Observable</title>
+      <link>https://softwave.cr/posts/promise-vs-observable/</link>
+      <pubDate>Mon, 14 Dec 2020 10:21:27 -0500</pubDate>
+      
+      <guid>https://softwave.cr/posts/promise-vs-observable/</guid>
+      <description>1:1  a Promise is eager, whereas an Observable is lazy, a Promise is always asynchronous, while an Observable can be either synchronous or asynchronous, a Promise can provide a single value, whereas an Observable is a stream of values (from 0 to multiple values), you can apply RxJS operators to an Observable to get a new tailored stream (categorized as: creation[from, range], transformation[map, scan ], filtering[first, last], joining[mergeall, startwith], multicasting[publish, share], error handling[catchError, retry], utility[delay, timeout])  Cheat sheet The following code snippets illustrate how the same kind of operation is defined using observables and promises.</description>
+    </item>
+    
+    <item>
+      <title>Modern Js</title>
+      <link>https://softwave.cr/posts/modern-js/</link>
+      <pubDate>Sun, 13 Dec 2020 21:23:31 -0500</pubDate>
+      
+      <guid>https://softwave.cr/posts/modern-js/</guid>
+      <description>Arrow functions Arrow functions have this syntax:
+const myFunction = () =&amp;gt; { //&amp;hellip; }
+The spread operator If you see
+const c = [&amp;hellip;a]
+This statement copies an array.
+You can add items to an array as well, using
+const c = [&amp;hellip;a, 2, &amp;lsquo;test&amp;rsquo;]
+The &amp;hellip; is called spread operator.
+Destructuring assignments You can extract just some properties from an object using this syntax:
+const person = { firstName: &amp;lsquo;Tom&amp;rsquo;, lastName: &amp;lsquo;Cruise&amp;rsquo;, actor: true, age: 54 }</description>
+    </item>
+    
+    <item>
+      <title>WCF vs WebAPI</title>
+      <link>https://softwave.cr/posts/wcf-vs-webapi/</link>
+      <pubDate>Thu, 10 Dec 2020 15:55:31 -0500</pubDate>
+      
+      <guid>https://softwave.cr/posts/wcf-vs-webapi/</guid>
+      <description>Scenario WCF 4.5 Web API     Requires support for scenarios like Message queues, end to end message security, duplex communication, distributed transactions, etc. YES NO   When you already have existing working WCF services and Wants to add HTTP support additionally. YES NO   One code base to provide support both SOAP and RESTful endpoints. YES NO   Wants to create a resource-oriented service over HTTP.</description>
+    </item>
+    
+    <item>
+      <title>The Four Pillars of Object Oriented Programming</title>
+      <link>https://softwave.cr/posts/oop-4-pillars/</link>
+      <pubDate>Thu, 10 Dec 2020 01:17:20 -0500</pubDate>
+      
+      <guid>https://softwave.cr/posts/oop-4-pillars/</guid>
+      <description>Abstraction Only making certain aspects of the program accessible from outside of the class (private methods).
+Encapsulation Wrapping up the methods and attributes of the class within the class itself.
+Inheritance A class&amp;rsquo; ability to inherit attributes and methods from other classes (keeps your code DRY).
+Polymorphism Classes that inherit from each other being able to invoke the same method and receive a different result.</description>
+    </item>
+    
+    <item>
+      <title>My second post!</title>
+      <link>https://softwave.cr/posts/my-second-post/</link>
+      <pubDate>Wed, 09 Dec 2020 22:58:19 -0500</pubDate>
+      
+      <guid>https://softwave.cr/posts/my-second-post/</guid>
+      <description>Just figured out how to add a title and content on each blog post!</description>
+    </item>
+    
+    <item>
+      <title>My first post!</title>
+      <link>https://softwave.cr/posts/my-first-post/</link>
+      <pubDate>Tue, 08 Dec 2020 20:37:55 -0500</pubDate>
+      
+      <guid>https://softwave.cr/posts/my-first-post/</guid>
+      <description>I will be sharing some posts on my subjects of interest.</description>
+    </item>
     
     <item>
       <title>About Jairo</title>

@@ -15,3 +15,5 @@ Define async named function |async function fnName(params) {...}	|async def fnNa
 Define async anonymous function|const fnName = async (params) => {...}|not supported|
 Async call with await|const result = await name(args);|result = await name(ar)                     |
 Async call with then & catch|name(args).then(result => {...}).catch(err => { ...});   |not supported|
+
+Feedback?
