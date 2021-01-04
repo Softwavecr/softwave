@@ -6,10 +6,22 @@
     <description>Recent content on softwave.cr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Dec 2020 15:48:59 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 04 Jan 2021 17:35:55 -0500</lastBuildDate>
     
 	<atom:link href="https://softwave.cr/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Swift Hello World</title>
+      <link>https://softwave.cr/posts/swift-intro-get-hello-world/</link>
+      <pubDate>Mon, 04 Jan 2021 17:35:55 -0500</pubDate>
+      
+      <guid>https://softwave.cr/posts/swift-intro-get-hello-world/</guid>
+      <description>Swift Hello World  Testing git 2020.  import UIKit
+class ViewController: UIViewController {
+override func viewDidLoad() { super.viewDidLoad() // Do any additional setup after loading the view. } @IBAction func showMessage(sender: UIButton) { let alertController = UIAlertController(title: &amp;quot;Welcome to My First App&amp;quot;, message: &amp;quot;Hello World&amp;quot;, preferredStyle: UIAlertController.Style.alert) alertController.addAction(UIAlertAction(title: &amp;quot;OK&amp;quot;, style: UIAlertAction.Style.default, handler: nil)) present(alertController, animated: true, completion: nil) }  }
+Any surprise?</description>
+    </item>
     
     <item>
       <title>Numpy and Arrays in Js</title>
