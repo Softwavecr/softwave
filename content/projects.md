@@ -9,7 +9,7 @@ I am a versatile engineer, passionate about technology and its evolution.
 Some of my old and ongoing projects are:
 
 * [this](https://github.com/Softwavecr/softwave)
-* [Polynizer - git(pending)](https://github.com/Softwavecr/polynizer)
+* [Polynizer(iOS)](https://www.youtube.com/watch?v=zJV9m93nMIw)
 * [kylajairo2019 git](https://github.com/Softwavecr/kylajairo2019)
 * [kylajairo2019](http://www.kylajairo2019.com/)
 * [Node.js API uber-like Demo - git](https://github.com/Softwavecr/libera)
