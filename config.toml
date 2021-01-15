@@ -59,13 +59,6 @@ theme = "hugo-coder"
     icon = "fa fa-linkedin"
     weight = 3
     url = "https://www.linkedin.com/in/jairo-guerrero-lozano-8a0a12115/"
-[[params.social]]
-    name = "RSS"
-    icon = "fa fa-rss"
-    weight = 4
-    url = "https://softwave.cr/index.xml"
-    rel = "alternate"
-    type = "application/rss+xml"
 
 # Menu links
 [[menu.main]]
