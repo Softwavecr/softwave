@@ -7,18 +7,21 @@
     <meta http-equiv="Content-Language" content="en">
 
     <meta name="author" content="Jairo Guerrero">
-    <meta name="description" content="Summary In order to build great web applications, I recommend to follow the Clean Architecture Template: developers and customers will appreciate this decission given its readibility, scalability, and maintainability, which will translate to efficiency and a positive cost/benefit outcome.
-Prerequites:  0.1. IDE(VS Code, Vim, or Notepad) 0.2. Net Core SDK (3.1&#43;) 0.3. Node.js 0.4. Git   $ dotnet new &ndash;install Clean.Architecture.Solution.Template::1.1.4 to install the project template Create a folder for your solution and cd into it (the template will use its name as project name) $ dotnet new ca-sln to create a new project $ export ASPNETCORE_Environment=Development $ cd src/WebUI $ dotnet build $ dotnet run $ cd ClientApp $ npm start  Then browse https://localhost:5001">
+    <meta name="description" content="Summary In order to build great web applications, I recommend to follow the Clean Architecture Template: developers and customers will appreciate this decision given its readability, scalability, and maintainability, which will translate into efficiency and a positive cost/benefit ratio.
+ Prerequites:
+ 0.1. IDE(VS Code, Vim, or Notepad) 0.2. Net Core SDK (3.1&#43;) 0.3. Node.js 0.4. Git    $ dotnet new &ndash;install Clean.Architecture.Solution.Template::1.1.4 to install the project template">
     <meta name="keywords" content="blog,developer,personal">
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Developing with .Net &#43; WebAPI and Clean Architecture"/>
-<meta name="twitter:description" content="Summary In order to build great web applications, I recommend to follow the Clean Architecture Template: developers and customers will appreciate this decission given its readibility, scalability, and maintainability, which will translate to efficiency and a positive cost/benefit outcome.
-Prerequites:  0.1. IDE(VS Code, Vim, or Notepad) 0.2. Net Core SDK (3.1&#43;) 0.3. Node.js 0.4. Git   $ dotnet new &ndash;install Clean.Architecture.Solution.Template::1.1.4 to install the project template Create a folder for your solution and cd into it (the template will use its name as project name) $ dotnet new ca-sln to create a new project $ export ASPNETCORE_Environment=Development $ cd src/WebUI $ dotnet build $ dotnet run $ cd ClientApp $ npm start  Then browse https://localhost:5001"/>
+<meta name="twitter:description" content="Summary In order to build great web applications, I recommend to follow the Clean Architecture Template: developers and customers will appreciate this decision given its readability, scalability, and maintainability, which will translate into efficiency and a positive cost/benefit ratio.
+ Prerequites:
+ 0.1. IDE(VS Code, Vim, or Notepad) 0.2. Net Core SDK (3.1&#43;) 0.3. Node.js 0.4. Git    $ dotnet new &ndash;install Clean.Architecture.Solution.Template::1.1.4 to install the project template"/>
 
     <meta property="og:title" content="Developing with .Net &#43; WebAPI and Clean Architecture" />
-<meta property="og:description" content="Summary In order to build great web applications, I recommend to follow the Clean Architecture Template: developers and customers will appreciate this decission given its readibility, scalability, and maintainability, which will translate to efficiency and a positive cost/benefit outcome.
-Prerequites:  0.1. IDE(VS Code, Vim, or Notepad) 0.2. Net Core SDK (3.1&#43;) 0.3. Node.js 0.4. Git   $ dotnet new &ndash;install Clean.Architecture.Solution.Template::1.1.4 to install the project template Create a folder for your solution and cd into it (the template will use its name as project name) $ dotnet new ca-sln to create a new project $ export ASPNETCORE_Environment=Development $ cd src/WebUI $ dotnet build $ dotnet run $ cd ClientApp $ npm start  Then browse https://localhost:5001" />
+<meta property="og:description" content="Summary In order to build great web applications, I recommend to follow the Clean Architecture Template: developers and customers will appreciate this decision given its readability, scalability, and maintainability, which will translate into efficiency and a positive cost/benefit ratio.
+ Prerequites:
+ 0.1. IDE(VS Code, Vim, or Notepad) 0.2. Net Core SDK (3.1&#43;) 0.3. Node.js 0.4. Git    $ dotnet new &ndash;install Clean.Architecture.Solution.Template::1.1.4 to install the project template" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://softwave.cr/posts/creating-web-application-on-net-core-webapi/" />
 <meta property="article:published_time" content="2021-01-30T20:11:48-05:00" />
@@ -152,10 +155,11 @@ Prerequites:  0.1. IDE(VS Code, Vim, or Notepad) 0.2. Net Core SDK (3.1&#43;) 0.
       <div>
         
         <h2 id="summary">Summary</h2>
-<p>In order to build great web applications, I recommend to follow the Clean Architecture Template: developers and customers will appreciate this decission given its readibility, scalability, and maintainability, which will translate to efficiency and a positive cost/benefit outcome.</p>
+<p>In order to build great web applications, I recommend to follow the Clean Architecture Template: developers and customers will appreciate this decision given its readability, scalability, and maintainability, which will translate into efficiency and a positive cost/benefit ratio.</p>
 <p><img src="/images/CA.png" alt="Solution Architecture"></p>
 <ol start="0">
-<li>Prerequites:
+<li>
+<p>Prerequites:</p>
 <ul>
 <li>0.1. IDE(VS Code, Vim, or Notepad)</li>
 <li>0.2. Net Core SDK (3.1+)</li>
@@ -163,22 +167,43 @@ Prerequites:  0.1. IDE(VS Code, Vim, or Notepad) 0.2. Net Core SDK (3.1&#43;) 0.
 <li>0.4. Git</li>
 </ul>
 </li>
-<li>$ dotnet new &ndash;install Clean.Architecture.Solution.Template::1.1.4 to install the project template</li>
-<li>Create a folder for your solution and cd into it (the template will use its name as project name)</li>
-<li>$ dotnet new ca-sln to create a new project</li>
-<li>$ export ASPNETCORE_Environment=Development</li>
-<li>$ cd src/WebUI</li>
-<li>$ dotnet build</li>
-<li>$ dotnet run</li>
-<li>$ cd ClientApp</li>
-<li>$ npm start</li>
+<li>
+<p>$ dotnet new &ndash;install Clean.Architecture.Solution.Template::1.1.4 to install the project template</p>
+</li>
+<li>
+<p>$ mkdir &ldquo;NAME&rdquo; and cd into it (choose &ldquo;NAME&rdquo;, this will be assigned to the project)</p>
+</li>
+<li>
+<p>$ dotnet new ca-sln to create a new project</p>
+</li>
+<li>
+<p>$ export ASPNETCORE_Environment=Development</p>
+</li>
+<li>
+<p>$ cd src/WebUI</p>
+</li>
+<li>
+<p>$ dotnet build</p>
+</li>
+<li>
+<p>$ dotnet run</p>
+</li>
+<li>
+<p>$ cd ClientApp</p>
+</li>
+<li>
+<p>$ npm start</p>
+</li>
 </ol>
 <p>Then browse https://localhost:5001</p>
 <p>At this point we want to create our custom work, in this case we will create a Contact management page.</p>
-<p>For this purpose we need to create the Entity, DTO and Events to handle CRUD actions.</p>
+<p>For this purpose we need to create the DBTable script, Entity, DTO and Events to handle CRUD actions.</p>
+<p><a href="https://github.com/Softwavecr/jCoreDemoApp/pull/3/commits/a0592878af6405bf625b5ff7d4c41bb7152044ec">https://github.com/Softwavecr/jCoreDemoApp/pull/3/commits/a0592878af6405bf625b5ff7d4c41bb7152044ec</a>
+<a href="https://github.com/Softwavecr/jCoreDemoApp/pull/3/commits/f41a03b25ff4f42426151b5f18bcfdd1d174d1a7">https://github.com/Softwavecr/jCoreDemoApp/pull/3/commits/f41a03b25ff4f42426151b5f18bcfdd1d174d1a7</a>
+<a href="https://github.com/Softwavecr/jCoreDemoApp/pull/3/commits/9d3c77377f80697a6502cb0e8ffbf877b128b06d">https://github.com/Softwavecr/jCoreDemoApp/pull/3/commits/9d3c77377f80697a6502cb0e8ffbf877b128b06d</a></p>
 <p>Finally, we will have to create the Front End, in this case, via Angular 10 CLI:</p>
 <p>open a console and navigate to the app folder and run</p>
-<p>$:~/jCoreDemoApp/src/WebUI/ClientApp/src/app$ ng generate component contact &ndash;module app.module</p>
+<p>$ ng generate component contact &ndash;module app.module</p>
 <p>The &ndash;module parameter might not be necessary, it was in my case(notice that it is  two dashes not one).</p>
 <p><img src="/images/dependency_diagramX.png" alt="Solution Architecture"></p>
 <h2 id="reference">REFERENCE</h2>

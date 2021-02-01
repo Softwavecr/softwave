@@ -17,8 +17,9 @@
       <pubDate>Sat, 30 Jan 2021 20:11:48 -0500</pubDate>
       
       <guid>https://softwave.cr/posts/creating-web-application-on-net-core-webapi/</guid>
-      <description>Summary In order to build great web applications, I recommend to follow the Clean Architecture Template: developers and customers will appreciate this decission given its readibility, scalability, and maintainability, which will translate to efficiency and a positive cost/benefit outcome.
-Prerequites:  0.1. IDE(VS Code, Vim, or Notepad) 0.2. Net Core SDK (3.1+) 0.3. Node.js 0.4. Git   $ dotnet new &amp;ndash;install Clean.Architecture.Solution.Template::1.1.4 to install the project template Create a folder for your solution and cd into it (the template will use its name as project name) $ dotnet new ca-sln to create a new project $ export ASPNETCORE_Environment=Development $ cd src/WebUI $ dotnet build $ dotnet run $ cd ClientApp $ npm start  Then browse https://localhost:5001</description>
+      <description>Summary In order to build great web applications, I recommend to follow the Clean Architecture Template: developers and customers will appreciate this decision given its readability, scalability, and maintainability, which will translate into efficiency and a positive cost/benefit ratio.
+ Prerequites:
+ 0.1. IDE(VS Code, Vim, or Notepad) 0.2. Net Core SDK (3.1+) 0.3. Node.js 0.4. Git    $ dotnet new &amp;ndash;install Clean.Architecture.Solution.Template::1.1.4 to install the project template</description>
     </item>
     
     <item>
