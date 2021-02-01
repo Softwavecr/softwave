@@ -41,7 +41,7 @@ For this purpose we need to create the Entity, DTO and Events to handle CRUD act
 
 Finally, we will have to create the Front End, in this case, via Angular 10 CLI:
 
- open a console and navigate to thje app folder and run
+ open a console and navigate to the app folder and run
 
  $:~/jCoreDemoApp/src/WebUI/ClientApp/src/app$ ng generate component contact --module app.module
 
