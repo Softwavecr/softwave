@@ -1,7 +1,7 @@
 +++ 
 draft = true
 date = 2021-01-30T20:11:48-05:00
-title = "Creating web application on net core webapi"
+title = "Creating a web application with net core webapi"
 description = ""
 slug = ""
 authors = []
@@ -9,7 +9,7 @@ tags = []
 categories = []
 externalLink = ""
 series = []
-+++
++++w
 
 ## Summary
 
