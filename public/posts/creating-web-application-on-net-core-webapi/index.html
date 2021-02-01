@@ -7,18 +7,18 @@
     <meta http-equiv="Content-Language" content="en">
 
     <meta name="author" content="Jairo Guerrero">
-    <meta name="description" content="Summary Follow the Clean Architecture Template for a well desgined, scalable, and maintainable solution.
-Prerequites:  0.1. IDE(VS Code, Vim, or Notepad) 0.2. Net Core SDK (3.1&#43;) 0.3. Node.js 0.4. Git   Run dotnet new &ndash;install Clean.Architecture.Solution.Template to install the project template Create a folder for your solution and cd into it (the template will use it as project name) Run dotnet new ca-sln to create a new project The server returns an HTTP response (output) to the browser The client (the browser) receives the response  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17  const https = require(&#39;https&#39;); https.">
+    <meta name="description" content="Summary In order to build great web applications, I recommend to follow the Clean Architecture Template: developers and customers will appreciate this decission given its readibility, scalability, and maintainability, which will translate to efficiency and a positive cost/benefit outcome.
+Prerequites:  0.1. IDE(VS Code, Vim, or Notepad) 0.2. Net Core SDK (3.1&#43;) 0.3. Node.js 0.4. Git   $ dotnet new &ndash;install Clean.Architecture.Solution.Template::1.1.4 to install the project template Create a folder for your solution and cd into it (the template will use its name as project name) $ dotnet new ca-sln to create a new project $ export ASPNETCORE_Environment=Development $ cd src/WebUI $ dotnet build $ dotnet run $ cd ClientApp $ npm start  Then browse https://localhost:5001">
     <meta name="keywords" content="blog,developer,personal">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Creating a web application with net core webapi"/>
-<meta name="twitter:description" content="Summary Follow the Clean Architecture Template for a well desgined, scalable, and maintainable solution.
-Prerequites:  0.1. IDE(VS Code, Vim, or Notepad) 0.2. Net Core SDK (3.1&#43;) 0.3. Node.js 0.4. Git   Run dotnet new &ndash;install Clean.Architecture.Solution.Template to install the project template Create a folder for your solution and cd into it (the template will use it as project name) Run dotnet new ca-sln to create a new project The server returns an HTTP response (output) to the browser The client (the browser) receives the response  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17  const https = require(&#39;https&#39;); https."/>
+<meta name="twitter:title" content="Developing with .Net &#43; WebAPI and Clean Architecture"/>
+<meta name="twitter:description" content="Summary In order to build great web applications, I recommend to follow the Clean Architecture Template: developers and customers will appreciate this decission given its readibility, scalability, and maintainability, which will translate to efficiency and a positive cost/benefit outcome.
+Prerequites:  0.1. IDE(VS Code, Vim, or Notepad) 0.2. Net Core SDK (3.1&#43;) 0.3. Node.js 0.4. Git   $ dotnet new &ndash;install Clean.Architecture.Solution.Template::1.1.4 to install the project template Create a folder for your solution and cd into it (the template will use its name as project name) $ dotnet new ca-sln to create a new project $ export ASPNETCORE_Environment=Development $ cd src/WebUI $ dotnet build $ dotnet run $ cd ClientApp $ npm start  Then browse https://localhost:5001"/>
 
-    <meta property="og:title" content="Creating a web application with net core webapi" />
-<meta property="og:description" content="Summary Follow the Clean Architecture Template for a well desgined, scalable, and maintainable solution.
-Prerequites:  0.1. IDE(VS Code, Vim, or Notepad) 0.2. Net Core SDK (3.1&#43;) 0.3. Node.js 0.4. Git   Run dotnet new &ndash;install Clean.Architecture.Solution.Template to install the project template Create a folder for your solution and cd into it (the template will use it as project name) Run dotnet new ca-sln to create a new project The server returns an HTTP response (output) to the browser The client (the browser) receives the response  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17  const https = require(&#39;https&#39;); https." />
+    <meta property="og:title" content="Developing with .Net &#43; WebAPI and Clean Architecture" />
+<meta property="og:description" content="Summary In order to build great web applications, I recommend to follow the Clean Architecture Template: developers and customers will appreciate this decission given its readibility, scalability, and maintainability, which will translate to efficiency and a positive cost/benefit outcome.
+Prerequites:  0.1. IDE(VS Code, Vim, or Notepad) 0.2. Net Core SDK (3.1&#43;) 0.3. Node.js 0.4. Git   $ dotnet new &ndash;install Clean.Architecture.Solution.Template::1.1.4 to install the project template Create a folder for your solution and cd into it (the template will use its name as project name) $ dotnet new ca-sln to create a new project $ export ASPNETCORE_Environment=Development $ cd src/WebUI $ dotnet build $ dotnet run $ cd ClientApp $ npm start  Then browse https://localhost:5001" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://softwave.cr/posts/creating-web-application-on-net-core-webapi/" />
 <meta property="article:published_time" content="2021-01-30T20:11:48-05:00" />
@@ -26,7 +26,7 @@ Prerequites:  0.1. IDE(VS Code, Vim, or Notepad) 0.2. Net Core SDK (3.1&#43;) 0.
 
 
     <title>
-  Creating a web application with net core webapi · softwave.cr
+  Developing with .Net &#43; WebAPI and Clean Architecture · softwave.cr
 </title>
 
     
@@ -128,7 +128,7 @@ Prerequites:  0.1. IDE(VS Code, Vim, or Notepad) 0.2. Net Core SDK (3.1&#43;) 0.
     <article>
       <header>
         <div class="post-title">
-          <h1 class="title">Creating a web application with net core webapi</h1>
+          <h1 class="title">Developing with .Net &#43; WebAPI and Clean Architecture</h1>
         </div>
         <div class="post-meta">
           <div class="date">
@@ -152,7 +152,8 @@ Prerequites:  0.1. IDE(VS Code, Vim, or Notepad) 0.2. Net Core SDK (3.1&#43;) 0.
       <div>
         
         <h2 id="summary">Summary</h2>
-<p>Follow the Clean Architecture Template for a well desgined, scalable, and maintainable solution.</p>
+<p>In order to build great web applications, I recommend to follow the Clean Architecture Template: developers and customers will appreciate this decission given its readibility, scalability, and maintainability, which will translate to efficiency and a positive cost/benefit outcome.</p>
+<p><img src="/images/CA.png" alt="Solution Architecture"></p>
 <ol start="0">
 <li>Prerequites:
 <ul>
@@ -162,108 +163,24 @@ Prerequites:  0.1. IDE(VS Code, Vim, or Notepad) 0.2. Net Core SDK (3.1&#43;) 0.
 <li>0.4. Git</li>
 </ul>
 </li>
-<li>Run
-dotnet new &ndash;install Clean.Architecture.Solution.Template to install the project template</li>
-<li>Create a folder for your solution and cd into it (the template will use it as project name)</li>
-<li>Run dotnet new ca-sln to create a new project</li>
-<li>The server returns an HTTP response (output) to the browser</li>
-<li>The client (the browser) receives the response</li>
+<li>$ dotnet new &ndash;install Clean.Architecture.Solution.Template::1.1.4 to install the project template</li>
+<li>Create a folder for your solution and cd into it (the template will use its name as project name)</li>
+<li>$ dotnet new ca-sln to create a new project</li>
+<li>$ export ASPNETCORE_Environment=Development</li>
+<li>$ cd src/WebUI</li>
+<li>$ dotnet build</li>
+<li>$ dotnet run</li>
+<li>$ cd ClientApp</li>
+<li>$ npm start</li>
 </ol>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 0
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">https</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;https&#39;</span>);
-
-<span style="color:#a6e22e">https</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&#39;</span>, (<span style="color:#a6e22e">resp</span>) =&gt; {
-  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">data</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>;
-
-  <span style="color:#75715e">// A chunk of data has been received.
-</span><span style="color:#75715e"></span>  <span style="color:#a6e22e">resp</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#39;data&#39;</span>, (<span style="color:#a6e22e">chunk</span>) =&gt; {
-    <span style="color:#a6e22e">data</span> <span style="color:#f92672">+=</span> <span style="color:#a6e22e">chunk</span>;
-  });
-
-  <span style="color:#75715e">// The whole response has been received. Print out the result.
-</span><span style="color:#75715e"></span>  <span style="color:#a6e22e">resp</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#39;end&#39;</span>, () =&gt; {
-    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">JSON</span>.<span style="color:#a6e22e">parse</span>(<span style="color:#a6e22e">data</span>).<span style="color:#a6e22e">explanation</span>);
-  });
-
-}).<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#34;error&#34;</span>, (<span style="color:#a6e22e">err</span>) =&gt; {
-  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Error: &#34;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">err</span>.<span style="color:#a6e22e">message</span>);
-});
-</code></pre></td></tr></table>
-</div>
-</div><h1 id="context-aws-api-gateway">Context: AWS API Gateway</h1>
-<p>API Gateway is a managed service that makes it easier to manage the APIs (creating, publishing, and maintaining secure APIs). API gateway has become one of the pillars of the microservices and serverless architectures. It comes in 3 flavors:</p>
-<h1 id="websocket-api">WebSocket API</h1>
-<p>Build a WebSocket API using persistent connections for real-time use cases such as chat applications or dashboards.
-Works with the following:
-Lambda, HTTP, AWS Services</p>
-<h1 id="http-api">HTTP API</h1>
-<p>Build low-latency and cost-effective REST APIs with built-in features such as OIDC and OAuth2, and native CORS support.
-Works with the following:
-Lambda, HTTP backends</p>
-<h1 id="rest-api">REST API</h1>
-<p>Develop a REST API where you gain complete control over the request and response along with API management capabilities.
-Works with the following:
-Lambda, HTTP, AWS Services</p>
-<h2 id="monthly-costs">Monthly costs</h2>
-<h2 id="rest">REST</h2>
-<table>
-<thead>
-<tr>
-<th>Requests</th>
-<th>Price</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0 - 333</td>
-<td>$3.50</td>
-</tr>
-<tr>
-<td>334 - 1M</td>
-<td>$2.80</td>
-</tr>
-</tbody>
-</table>
-<h2 id="http">HTTP</h2>
-<table>
-<thead>
-<tr>
-<th>Requests</th>
-<th>Price</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0 - 300</td>
-<td>$1.00</td>
-</tr>
-<tr>
-<td>301 - 1M</td>
-<td>$0.90</td>
-</tr>
-</tbody>
-</table>
+<p>Then browse https://localhost:5001</p>
+<p>At this point we want to create our custom work, in this case we will create a Contact management page.</p>
+<p>For this purpose we need to create the Entity, DTO and Events to handle CRUD actions.</p>
+<p>Finally, we will have to create the Front End, in this case, via Angular 10 CLI:</p>
+<p>open a console and navigate to thje app folder and run</p>
+<p>$:~/jCoreDemoApp/src/WebUI/ClientApp/src/app$ ng generate component contact &ndash;module app.module</p>
+<p>The &ndash;module parameter might not be necessary, it was in my case(notice that it is  two dashes not one).</p>
+<p><img src="/images/dependency_diagramX.png" alt="Solution Architecture"></p>
 <h2 id="reference">REFERENCE</h2>
 <ul>
 <li><a href="https://jasonwatmore.com/post/2019/10/14/aspnet-core-3-simple-api-for-authentication-registration-and-user-management">ASP.NET Core 3.1 - Simple API for Authentication (09/2020)</a></li>
