@@ -1,2 +1,2 @@
 # softwave
-Basic project build with Hugo
+Basic project built with Hugo
