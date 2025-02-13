@@ -1,100 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://softwave.cr/posts/creating-web-application-on-net-core-webapi/</loc>
-    <lastmod>2021-01-30T20:11:48-05:00</lastmod>
+    <loc>https://softwavecr.com/about/</loc>
+  </url><url>
+    <loc>https://softwavecr.com/categories/</loc>
+  </url><url>
+    <loc>https://softwavecr.com/contact/</loc>
+  </url><url>
+    <loc>https://softwavecr.com/projects/</loc>
+  </url><url>
+    <loc>https://softwavecr.com/</loc>
+  </url><url>
+    <loc>https://softwavecr.com/tags/</loc>
   </url>
-  
-  <url>
-    <loc>https://softwave.cr/posts/</loc>
-    <lastmod>2021-01-30T20:11:48-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/</loc>
-    <lastmod>2021-01-30T20:11:48-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/posts/swift-intro-get-hello-world/</loc>
-    <lastmod>2021-01-04T17:35:55-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/posts/numpy-and-arrays-in-js/</loc>
-    <lastmod>2020-12-22T15:48:59-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/posts/six-donts-during-job-interviews/</loc>
-    <lastmod>2020-12-17T13:14:25-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/posts/async-http-calls/</loc>
-    <lastmod>2020-12-15T17:55:32-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/posts/aws-apigateway-http-vs-rest/</loc>
-    <lastmod>2020-12-15T15:51:53-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/posts/http-soap-rest/</loc>
-    <lastmod>2020-12-15T13:24:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/posts/promise-vs-observable/</loc>
-    <lastmod>2020-12-14T10:21:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/posts/modern-js/</loc>
-    <lastmod>2020-12-13T21:23:31-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/posts/wcf-vs-webapi/</loc>
-    <lastmod>2020-12-10T15:55:31-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/posts/oop-4-pillars/</loc>
-    <lastmod>2020-12-10T01:17:20-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/posts/my-second-post/</loc>
-    <lastmod>2020-12-09T22:58:19-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/posts/my-first-post/</loc>
-    <lastmod>2020-12-08T20:37:55-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/projects/</loc>
-  </url>
-  
-  <url>
-    <loc>https://softwave.cr/tags/</loc>
-  </url>
-  
 </urlset>

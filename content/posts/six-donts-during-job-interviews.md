@@ -1,7 +1,7 @@
 ---
 title: "Six Donts During Job Interviews"
 date: 2020-12-17T13:14:25-05:00
-draft: true
+draft: false
 ---
 
 ## Do not expect to get an offer if you say  

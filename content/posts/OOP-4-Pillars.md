@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2020-12-10T01:17:20-05:00
 title = "The Four Pillars of Object Oriented Programming"
 description = ""

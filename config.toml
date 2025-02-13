@@ -1,13 +1,13 @@
-baseURL = "https://softwave.cr/"
+baseURL = "https://softwavecr.com/"
 languageCode = "en-us"
-title = "softwave.cr"
+title = "softwavecr.com"
 theme = "hugo-coder"
 
 [params]
     author = "Jairo Guerrero"
     description = "Jairo Guerrero's personal website"
     keywords = "blog,developer,personal"
-    info = "Full Stack, InfoSec Engineer & Former Footballer"
+    info = "Lead Engineer | .NET | Cloud | Linux | Python | SQL | Docker | JavaScript | AppSec"
     #avatarURL = "images/avatar.jpg"
     avatarURL = "images/avatar1.png"
     footerContent = "Personal page for demo and knowledge exchange, WIP."
@@ -38,7 +38,7 @@ theme = "hugo-coder"
     maxSeeAlsoItems = 5
 
     # Enable Twemoji
-    enableTwemoji = true
+    enableTwemoji = false
 
     # Custom CSS
     customCSS = []
