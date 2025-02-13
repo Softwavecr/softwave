@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2021-01-30T20:11:48-05:00
 title = "Developing with .Net + WebAPI and Clean Architecture"
 description = ""
