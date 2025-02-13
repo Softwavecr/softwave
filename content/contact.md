@@ -3,4 +3,8 @@ title = "Contact"
 slug = "contact"
 +++
 
-Skype me jairo.guerrero.lozano, or share your thoughts jgl200322295@gmail.com
+Feel free to call, text or email me!
+
++1 (347) 464 8606 
+
+jgl200322295@gmail.com
