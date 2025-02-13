@@ -1,7 +1,7 @@
 ---
 title: "Numpy and Arrays in Js"
 date: 2020-12-22T15:48:59-05:00
-draft: true
+draft: false
 ---
 
 ## ASYNCHRONOUS FUNCTIONS 
