@@ -11,6 +11,6 @@ externalLink = ""
 series = []
 +++
 
-#New year, bring it on
+## New year, bring it on!
 
 The short term goal is to update the site to show the highlights of what has happened since 2021, fix broken links and outdated information.
