@@ -11,12 +11,8 @@ Some of my old and ongoing projects are:
 * [this](https://github.com/Softwavecr/softwave)
 * [Polynizer(iOS)](https://www.youtube.com/watch?v=zJV9m93nMIw)
 * [kylajairo2019 git](https://github.com/Softwavecr/kylajairo2019)
-* [kylajairo2019](http://www.kylajairo2019.com/)
 * [Node.js API uber-like Demo - git](https://github.com/Softwavecr/libera)
 * [Net Core + Angular Demo - git](https://github.com/Softwavecr/jWebApplicationNg)
-* [Net Core + Angular Demo](https://www.softwavecr.com)
-* [AppSec Workshop]
-* [AppSec Best Practices for .Net Dev]
 
 Learn more and contribute on [GitHub](https://github.com/Softwavecr).
 
@@ -30,13 +26,12 @@ Learn more and contribute on [GitHub](https://github.com/Softwavecr).
 
 ## Setup
 
-Some fun facts about [Jairo](http://gohugo.io/):
+Some facts about [Jairo](http://gohugo.io/):
 
 * Built in [CR](https://www.anywhere.com/costa-rica)
 * Inspired by [OWASP](https://owasp.org/)
 * Primarily developed by [TEC](https://tec.ac.cr/) in dorms while pursuing a dream.
 * Coded in [C#] using [Visual Studio]
+* Substantial career growth achieved between 2021 and 2024, as Lead Engineer for ASGINC.US and Senior Engineering Manager for Maersk.
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
-
-Thanks for reading!
+Have questions or suggestions? Let's chat!
