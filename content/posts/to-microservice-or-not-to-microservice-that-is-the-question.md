@@ -11,32 +11,33 @@ externalLink = ""
 series = []
 +++
 
-You are planning next sprint and see 3 stories that seem related:
+## Scenario
+You are planning the next sprint, and navigating through the backlog suddenly find 3 stories that seem related
 
-1. New Riders need to upload a profile or avatar image.
+1. New Riders need to __upload__ a profile or avatar __image__.
 
-2. New Drivers need to upload their drivers licence.
+2. New Drivers need to __upload__ their __drivers licence__.
 
-3. Employees need to upload their receipts for expense reports.
+3. Employees need to __upload__ their __receipts__ for expense reports.
 
-You may consider the creation of a dedicated FileUploader microservice solely for handling file storage and manipulation. Though this approach introduces unnecessary complexity, latency, and potential points of failure.  Instead, you could argue leveraging existing cloud storage solutions (like AWS S3, Azure Blob Storage, or Google Cloud Storage) directly within your application services.  The benefits of these services, such as scalability, reliability, and cost-effectiveness, often provide more robust and feature-rich solutions than a custom-built FileUploader microservice.
+You may consider the idea of having a dedicated file [micro]service solely for handling file storage(pictures). But, 
+__do we really need it? Well, it depends__.
 
-## Key Arguments
+## Why not?
 
-1. Unnecessary Complexity: A separate file microservice adds another layer of communication and management, increasing the overall complexity of the system.
-2. Performance Overhead: Inter-service communication introduces latency, which can negatively impact performance, especially when dealing with large files or frequent file operations.
-3. Maintenance Burden: Maintaining a dedicated file microservice requires additional effort in terms of development, deployment, and monitoring.
-4. Reinventing the Wheel: Cloud storage providers offer mature and highly optimized solutions for file management, making a custom microservice redundant.
+1. __Unnecessary Complexity__: A separate file service adds another layer of communication and management, increasing the overall complexity of the system.
+2. __Performance Overhead__: Inter-service communication introduces latency, which can negatively impact performance, especially when dealing with large files or frequent file operations.
+3. __Maintenance Burden__: Maintaining a dedicated file service requires additional effort in terms of development, deployment, and monitoring.
+4. __Reinventing the Wheel__: Cloud storage providers offer mature and highly optimized solutions for file management, making a custom service redundant.
 
-## Counter
+## Although
 
-Operational overhead and the challenges of ensuring consistency and reliability.
+While a dedicated file service might not always be the best solution, there are specific scenarios where it could be justified:
 
-While a dedicated file microservice might not always be the best solution, there are specific scenarios where it could be justified:
-
-1. Complex File Processing: If the application requires extensive file manipulation (e.g., image processing, video transcoding), a dedicated service might be useful to offload these tasks from the main application.
-2. Abstraction and Encapsulation: A file microservice can provide a layer of abstraction, shielding the application from the specifics of the underlying storage implementation. This can be beneficial if you anticipate needing to switch storage providers in the future.
-3. Security and Access Control: In some cases, a file microservice might be used to enforce specific security policies or access control rules for file storage.
+1. __Complex File Processing__: If the application requires extensive file manipulation (e.g., image processing), a dedicated service might be useful to offload these tasks from the main application.
+2. __Abstraction and Encapsulation__: A file service can provide a layer of abstraction, shielding the application from the specifics of the underlying storage implementation. This can be beneficial if you anticipate needing to switch storage providers in the future.
+3. __Security and Access Control__: In some cases, a file service might be used to enforce specific security policies or access control rules for file storage.
 
 # In Short
-This analysis provides a valuable perspective on the potential pitfalls of file microservices.  While not a universally applicable rule, the advice to avoid them in most cases is sound.  Some counters add valuable context by exploring the exceptions and nuances of the issue.  As with any architectural decision, careful consideration of the specific requirements and constraints of the project is crucial.
+While not a universally applicable rule, the advice to avoid creating a file [micro]service in most cases is sound.  However, the counters explore the exceptions and nuances of the issue, adding valuable context.
+As with any architectural decision, careful consideration of the specific requirements and constraints of the project is crucial.
