@@ -11,7 +11,7 @@ externalLink = ""
 series = []
 +++
 
-I am exploring ways to generally improve the UX of this site, __softwavecr.com__. Bear in mind it is built with Hugo(popular open-source static site generators). I am especially interested in adding __React__. Let's take a look at the options and their pros and cons.
+I am exploring ways to generally improve the UX of this site, __softwavecr.com__. Bear in mind it is built with Hugo(popular open-source static site generator). I am especially interested in adding __React__. Let's take a look at the options and their pros and cons.
 
 1. React as a Progressive Enhancement (__Sprinkling__):
 
