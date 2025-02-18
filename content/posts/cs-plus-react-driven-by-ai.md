@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2025-02-17T19:04:33-05:00
 title = "Coding with AI"
 description = "Experimenting with AI"
@@ -294,11 +294,11 @@ export default App;
 
 ## Key Improvements and Explanations:
 
-* SQLite and EF Core: Simplified data access using SQLite and Entity Framework Core. No separate database server needed.
-* Services: Added a PostService to encapsulate data access logic and keep controllers clean.
-* API Controllers: Created PostController with GET and POST actions (you can add PUT and DELETE later).
-* React useEffect: Used useEffect in the React component to fetch data from the API when the component mounts.
-* CORS: If you encounter CORS issues (due to running the frontend and backend on different ports), you'll need to configure CORS in your .NET project's Program.cs. For development, you can allow all origins:
+* __SQLite and EF Core__: Simplified data access using SQLite and Entity Framework Core. No separate database server needed.
+* __Services__: Added a PostService to encapsulate data access logic and keep controllers clean.
+* __API Controllers__: Created PostController with GET and POST actions (you can add PUT and DELETE later).
+* __React useEffect__: Used useEffect in the React component to fetch data from the API when the component mounts.
+* __CORS__: If you encounter CORS issues (due to running the frontend and backend on different ports), you'll need to configure CORS in your .NET project's Program.cs. For development, you can allow all origins:
 ```cs {linenos=table,linenostart=0}    
 builder.Services.AddCors(options =>
 {
