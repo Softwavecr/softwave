@@ -6,8 +6,9 @@ slug = "about"
 Jairo is a software engineer written in CR and extended in the UK.
 V2 is under development in the US.
 
-Quick intro on how I developed my passion and knowledge for languages(in Spanish)
-* [Flipgrip](https://flipgrid.com/s/Kzyyx5NyKJfRXXvN)
+Quick intro on how I developed my passion and knowledge for languages, in Spanish, former video on flipgrip:
+
+{{< audio src="/audio/ttsmaker-file-2025-2-18-14-50-58.mp3" >}}
 
 My academic background:
 
