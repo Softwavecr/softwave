@@ -33,6 +33,6 @@ Some facts about [Jairo](https://www.hackerrank.com/profile/jgl200322295/):
 * Inspired by [OWASP](https://owasp.org/)
 * Primarily developed by [TEC](https://tec.ac.cr/) in dorms. Back in 2004 I won a programming olympics.
 * Coded mostly in [__C#__] and [__JS__] on many IDEs.
-* Substantial career growth achieved between 2021 and 2024, as Lead Engineer for [[ASGINC.US](https://www.asginc.us/)] and Senior Engineering Manager for [[Maersk](https://www.maersk.com/)].
+* Substantial career growth achieved between 2021 and 2024, as Lead Engineer for [ASGINC.US](https://www.asginc.us/) and Senior Engineering Manager for [Maersk](https://www.maersk.com/).
 
 Have questions or suggestions? Let's chat!
