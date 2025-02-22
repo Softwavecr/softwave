@@ -11,8 +11,6 @@ externalLink = ""
 series = []
 +++
 
-# The Project Management Triangle
-
 A former boss of mine used to say, when negotiating with customers about Enterprise grade software, "*Of course we can deliver what you want, but you have to pick 2 our of 3: speed, quality and cost...*". The first time I heard that I was so amazed, I figured he had to be a genius!
 
 My former boss was referring to the classic "Project Management Triangle" or "Triple Constraint." This concept highlights that in project management, particularly in software development, there are three primary constraints: speed (time), quality (scope), and cost (resources). The idea is that you can prioritize two of these constraints, but the third will be affected. Here's a quick rundown:
