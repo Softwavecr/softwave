@@ -19,6 +19,8 @@ My academic background:
 
 Learn more and contribute on [GitHub](https://github.com/softwavecr).
 
+[Download my CV](/docs/Jairo_Guerrero_Lead_Engineer.pdf)
+
 ## Next
 
 
