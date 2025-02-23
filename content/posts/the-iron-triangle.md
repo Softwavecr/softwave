@@ -2,7 +2,7 @@
 draft = false
 date = 2025-02-21T23:47:37-05:00
 title = "The Iron Triangle"
-description = "Pick 2 our of 3: speed, quality and cost"
+description = "Pick two our of three: speed, quality and cost"
 slug = ""
 authors = []
 tags = []
