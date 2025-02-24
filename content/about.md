@@ -13,7 +13,7 @@ Quick intro on how I developed my passion and knowledge for languages, in Spanis
 My academic background:
 
 * [Escuela Rafael Moya Murillo](https://www.facebook.com/EscuelaMoya/)
-* [Liceo Ing. Samuel Saenz Flores](https://www.facebook.com/liceosamuel.saenzflores/)
+* [Liceo Ing. Samuel Saenz Flores](https://www.facebook.com/LSSF.Oficial/)
 * [Tecnológico de Costa Rica](https://www.tec.ac.cr/)
 * [Royal Holloway, University of London](https://www.royalholloway.ac.uk/)
 
