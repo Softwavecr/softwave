@@ -1,5 +1,5 @@
 # softwave
-https://softwavecr.com
+https://softwavecr.com 
 
 Basic project built with Hugo, new change 07292024 2149ET.
 
