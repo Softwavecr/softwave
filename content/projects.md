@@ -33,6 +33,6 @@ Some facts about [Jairo](http://gohugo.io/):
 * Inspired by [OWASP](https://owasp.org/)
 * Primarily developed by [TEC](https://tec.ac.cr/) in dorms while pursuing a dream.
 * Coded in [C#] using [Visual Studio]
-* Substantial career growth achieved between 2021 and 2024; Lead Engineer @ ASGINC.US, and Senior Engineering Manager @ Maersk.
+* Substantial career growth achieved between 2021 and 2024; Lead Engineer at ASGINC.US, and Senior Engineering Manager at Maersk.
 
 Have questions or suggestions? Let's chat!
