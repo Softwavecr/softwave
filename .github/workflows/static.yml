@@ -4,25 +4,25 @@ on:
   pull_request:
     branches:
       - dev
-      - feature/** # Matches any feature branch
+      - feature/**
     paths:
-      - '**/*.md' # Example: Markdown files
-      - 'config.toml' # Hugo config
-      - 'themes/**' # Hugo themes
-      - '.github/workflows/hugo_build_check.yml' # This workflow file
-      - 'public/**' # If you want to check changes in the output directory
-      - 'api/**' # if you have an api directory
+      - '**/*.md'
+      - 'config.toml'
+      - 'themes/**'
+      - '.github/workflows/hugo_build_check.yml'
+      - 'public/**'
+      - 'api/**'
   push:
     branches:
       - dev
-      - feature/** # Matches any feature branch
+      - feature/**
     paths:
-      - '**/*.md' # Example: Markdown files
-      - 'config.toml' # Hugo config
-      - 'themes/**' # Hugo themes
-      - '.github/workflows/hugo_build_check.yml' # This workflow file
-      - 'public/**' # If you want to check changes in the output directory
-      - 'api/**' # if you have an api directory
+      - '**/*.md'
+      - 'config.toml'
+      - 'themes/**'
+      - '.github/workflows/hugo_build_check.yml'
+      - 'public/**'
+      - 'api/**'
 
 jobs:
   hugo_build_check:
@@ -37,16 +37,19 @@ jobs:
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest' # Or specify a version
+          hugo-version: 'latest'
 
       - name: Build with Hugo
         run: hugo
 
       - name: Check for public directory
-        run: ls public # Check if the public directory was created
+        run: ls public
 
-      - name: Upload artifacts (optional, for debugging)
-        uses: actions/upload-artifact@v3
+      - name: Upload artifacts (for debugging)
+        uses: actions/upload-artifact@v4 # Updated to v4
         with:
           name: hugo-build-artifacts
-          path: public # Or the path to your Hugo output directory
+          path: public
+          if-no-files: error # Fail the workflow if no files are uploaded
+
+      # Add other checks here, like linting, if applicable
