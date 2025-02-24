@@ -1,7 +1,7 @@
 ---
 title: "AWS API Gateway: HTTP vs REST"
 date: 2020-12-15T15:51:53-05:00
-draft: true
+draft: false
 ---
 
 ## Summary
