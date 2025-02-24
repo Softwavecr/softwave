@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           submodules: true
 
@@ -34,7 +34,8 @@ jobs:
         run: ls public # Check if the public directory was created
 
       - name: Upload artifacts (optional, for debugging)
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: hugo-build-artifacts
           path: public # Or the path to your Hugo output directory
+          retention-days: 2
