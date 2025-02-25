@@ -10,7 +10,7 @@ Some of my old and ongoing projects are:
 
 * [this](https://github.com/Softwavecr/softwave)
 * [hackerrank in cs-py-js](https://github.com/Softwavecr/effective-sniffle/tree/dev)
-* [coding exercises in cs-py-js](https://github.com/Softwavecr/polydojo)
+* [coding exercises in cs-py-js-go](https://github.com/Softwavecr/polydojo)
 * [Polynizer(iOS)](https://www.youtube.com/watch?v=Fl81zPGkS6I)
 * [kylajairo2019 git](https://github.com/Softwavecr/kylajairo2019)
 * [Node.js API uber-like Demo - git](https://github.com/Softwavecr/libera)
