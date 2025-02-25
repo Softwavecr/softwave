@@ -15,7 +15,7 @@ Academic background:
 * [Instituto Tecnológico de Costa Rica](https://www.tec.ac.cr/)
 * [Royal Holloway, University of London](https://www.royalholloway.ac.uk/)
 
-[Curriculum Vitae - Download](/docs/Jairo_Guerrero_Lead_Engineer.pdf)
+[Curriculum Vitae (pdf)](/docs/Jairo_Guerrero_Lead_Engineer.pdf)
 # Accomplishments
 ### Programming Olympics - 2004
 Back in college, I won the first place in the National Programming Olympics, organized by my alma mater.
