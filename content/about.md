@@ -28,7 +28,9 @@ But my true achievement? Balancing intense work with daily dawn and dusk surf se
 ![surf](/images/sunsetsurf.jpg)
 
 ### MSc. Information Security - 2018
+
 ![graduation](/images/graduation-rhul-new.png)
+
 ![football](/images/jairo-rhul01.jpg)
 
 
