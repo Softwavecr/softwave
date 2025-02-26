@@ -17,7 +17,7 @@ What about Net 6?
 
 Let's do a quick overview of the evolution of Microsoft's Net.
 
-![net_evolution](/images/evolution_of_net.jpg)
+![net_evolution](/images/evolution_of_net.png)
 
 ## REFERENCE
 * [The evolution of .NET into .NET 7 - Andrew Lock - 2023](https://andrewlock.net/understanding-the-dotnet-ecosystem-the-evolution-of-dotnet-into-dotnet-7/)
