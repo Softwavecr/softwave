@@ -31,10 +31,6 @@ But my true achievement? Balancing intense work with daily dawn and dusk surf se
 
 ![graduation](/images/graduation-rhul-new.png)
 
-![football](/images/jairo-rhul01.jpg)
-
-
-
 ### Datadog Dash 2022
 ![dash](/images/dash.png)
 ### Snowflake World Tour 2024
