@@ -4,8 +4,8 @@ title = "softwavecr.com"
 theme = "hugo-coder"
 
 [params]
-    author = "Jairo Guerrero"
-    description = "Jairo Guerrero's personal website"
+    author = "Jairo G"
+    description = "Jairo G's personal website"
     keywords = "blog,developer,personal"
     info = "Lead Engineer | .NET | Cloud | Linux | Python | SQL | Docker | JavaScript | AppSec"
     #avatarURL = "images/avatar.jpg"
@@ -58,7 +58,7 @@ theme = "hugo-coder"
     name = "LinkedIn"
     icon = "fa fa-linkedin"
     weight = 3
-    url = "https://www.linkedin.com/in/jairo-guerrero-lozano-8a0a12115/"
+    url = "https://linkedin.softwavecr.com"
 
 # Menu links
 [[menu.main]]
