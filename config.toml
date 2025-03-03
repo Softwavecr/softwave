@@ -37,6 +37,9 @@ theme = "hugo-coder"
     # Series see also post count
     maxSeeAlsoItems = 5
 
+    # Enable Emoji
+    enableEmoji = true
+
     # Enable Twemoji
     enableTwemoji = false
 
@@ -66,14 +69,18 @@ theme = "hugo-coder"
   weight = 1
   url  = "posts/"
 [[menu.main]]
-  name = "About"
-  weight = 2
-  url = "about/"
-[[menu.main]]
   name = "Projects"
-  weight = 3
+  weight = 2
   url = "projects/"
 [[menu.main]]
-  name = "Contact me"
+  name = "Experience"
+  weight = 3
+  url = "experience/"
+[[menu.main]]
+  name = "About"
   weight = 4
+  url = "about/"
+[[menu.main]]
+  name = "Contact"
+  weight = 5
   url = "contact/"

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Language" content="en">
 
-    <meta name="author" content="Jairo Guerrero">
+    <meta name="author" content="Jairo G">
     <meta name="description" content="HTTP – the Standard Library No Promises, async/await nor 3rd party dependencies.
 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17  const https = require(&#39;https&#39;); https.get(&#39;https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&#39;, (resp) =&gt; { let data = &#39;&#39;; // A chunk of data has been received.  resp.on(&#39;data&#39;, (chunk) =&gt; { data &#43;= chunk; }); // The whole response has been received. Print out the result.">
     <meta name="keywords" content="blog,developer,personal">
@@ -20,17 +20,18 @@
 <meta property="og:description" content="HTTP – the Standard Library No Promises, async/await nor 3rd party dependencies.
 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17  const https = require(&#39;https&#39;); https.get(&#39;https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&#39;, (resp) =&gt; { let data = &#39;&#39;; // A chunk of data has been received.  resp.on(&#39;data&#39;, (chunk) =&gt; { data &#43;= chunk; }); // The whole response has been received. Print out the result." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://softwave.cr/posts/async-http-calls/" />
+<meta property="og:url" content="https://softwavecr.com/posts/async-http-calls/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-12-15T17:55:32-05:00" />
 <meta property="article:modified_time" content="2020-12-15T17:55:32-05:00" />
 
 
+
     <title>
-  Async HTTP Calls · softwave.cr
+  Async HTTP Calls · softwavecr.com
 </title>
 
     
-      <link rel="canonical" href="https://softwave.cr/posts/async-http-calls/">
+      <link rel="canonical" href="https://softwavecr.com/posts/async-http-calls/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
@@ -63,10 +64,8 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
 
     
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/2/twemoji.min.js" integrity="sha512-panBjUGuKarjg0qxHggQULmRf9jB/YVCy238hmzBWUuLeOuwMSuJgJcUv3T+rwXUBZ9zeUvc49ZcCRH+EO0H8g==" crossorigin="anonymous"></script>
-    
 
-    <meta name="generator" content="Hugo 0.68.3" />
+    <meta name="generator" content="Hugo 0.92.2" />
   </head>
 
   
@@ -74,7 +73,7 @@
     
   
   <body class="colorscheme-auto"
-        onload=" twemoji.parse(document.body); "
+        onload=""
   >
     
 <div class="float-container">
@@ -88,7 +87,7 @@
       <nav class="navigation">
   <section class="container">
     <a class="navigation-title" href="/">
-      softwave.cr
+      softwavecr.com
     </a>
     
       <input type="checkbox" id="menu-toggle" />
@@ -103,15 +102,19 @@
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link" href="/about/">About</a>
-            </li>
-          
-            <li class="navigation-item">
               <a class="navigation-link" href="/projects/">Projects</a>
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link" href="/contact/">Contact me</a>
+              <a class="navigation-link" href="/experience/">Accomplishments</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/contact/">Contact</a>
             </li>
           
         
@@ -155,7 +158,7 @@
 <p>No Promises, async/await nor 3rd party dependencies.</p>
 <div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 0
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 0
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
@@ -175,7 +178,7 @@
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">https</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;https&#39;</span>);
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">https</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;https&#39;</span>);
 
 <span style="color:#a6e22e">https</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&#39;</span>, (<span style="color:#a6e22e">resp</span>) =&gt; {
   <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">data</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>;
@@ -229,8 +232,8 @@
         
           2020 -
         
-        2021
-         Jairo Guerrero 
+        2025
+         Jairo G 
       
       
          · 
@@ -248,7 +251,7 @@
     
       
         
-        <script src="/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+        <script src="/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js"></script>
       
     
 
